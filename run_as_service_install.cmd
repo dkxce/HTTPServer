@@ -1,0 +1,1 @@
+@nssm32.exe install "dkxceHTTPServer" "%CD%\dkxceHTTPServer.exe" 80
