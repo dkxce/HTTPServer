@@ -40,7 +40,7 @@ namespace ConsoleApplication1
             SimpleServersPBAuth.HttpServer iServ = new SimpleServersPBAuth.HttpServer(port);
             iServ.OnlyHTTPClients = true;
             //iServ.ServerName = "TEST 0.1";
-            iServ.AuthentificationCredintals.Add("dkxce", "113042");
+            iServ.AuthentificationCredintals.Add("admin", "123456");
             iServ.AuthentificationRequired = true;
             //
             iServ.ListenIPAllow = new string[] { "127.0.0.1", "192.168.10.*", @"^192.168.3[34].\d{1,3}$" };
@@ -72,8 +72,8 @@ namespace ConsoleApplication1
             {
                 System.Threading.Thread.Sleep(2000);
                 IntPtr cHnd = GetConsoleWindow();
-                FreeConsole(); // Отвязываемся от консоли
-                ShowWindow(cHnd, 0); // Скрываем консоль
+                FreeConsole(); // ГЋГІГўГїГ§Г»ГўГ ГҐГ¬Г±Гї Г®ГІ ГЄГ®Г­Г±Г®Г«ГЁ
+                ShowWindow(cHnd, 0); // Г‘ГЄГ°Г»ГўГ ГҐГ¬ ГЄГ®Г­Г±Г®Г«Гј
                 while (true)
                     System.Threading.Thread.Sleep(2000);
             };
