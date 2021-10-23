@@ -32,7 +32,7 @@ namespace ConsoleApplication1
             if ((args != null) && (args.Length > 1) && (args[1] == "/noconsole")) noconsole = true;
 
             Console.WriteLine("dkxce First one");
-            Console.WriteLine("  Credintals: dkxce@127.0.0.1");
+            Console.WriteLine("  Credintals: admin:123456@127.0.0.1");
             Console.Write("  Local IP: ");
             ListLocalIPAddresses();
             Console.WriteLine();
